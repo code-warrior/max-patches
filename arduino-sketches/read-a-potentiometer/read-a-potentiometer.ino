@@ -32,8 +32,8 @@ void loop() {
   potentiometer_value = analogRead(POTENTIOMETER); // Read the pot’s value.
 
   Serial.println(potentiometer_value); // Print the pot’s value to the serial monitor.
-  digitalWrite(LED, HIGH);             // Turn the voltage on PIN 13 on (HIGH).
+  digitalWrite(LED, HIGH);             // Turn PIN 13’s voltage on (HIGH).
   delay(potentiometer_value);          // Pause this loop by the amount read from the pot.
-  digitalWrite(LED, LOW);              // Turn the voltage on PIN 13 off (LOW).
+  digitalWrite(LED, LOW);              // Turn PIN 13’s voltage off (LOW).
   delay(potentiometer_value);          // Establish one final delay before starting this loop again.
 }
