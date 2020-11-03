@@ -51,7 +51,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 263.0, 436.0, 20.0, 20.0 ],
+					"patching_rect" : [ 263.0, 405.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "4",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 69.0, 419.0, 186.0, 54.0 ],
+					"patching_rect" : [ 69.0, 388.0, 186.0, 54.0 ],
 					"text" : "Tap the mic a little more forcefully and see this LED light up via a bang"
 				}
 
@@ -83,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.0, 426.0, 186.0, 40.0 ],
+					"patching_rect" : [ 486.0, 395.0, 186.0, 40.0 ],
 					"text" : "Tap the mic gently and see this LED light up via a bang"
 				}
 
@@ -101,7 +101,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 678.0, 434.0, 20.0, 20.0 ],
+					"patching_rect" : [ 678.0, 403.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "3",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -121,7 +121,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 165.0, 20.0, 20.0 ],
+					"patching_rect" : [ 201.0, 134.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "2",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -141,7 +141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 689.0, 196.0, 20.0, 20.0 ],
+					"patching_rect" : [ 689.0, 165.0, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -158,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 595.0, 323.0, 188.0, 54.0 ],
+					"patching_rect" : [ 595.0, 292.0, 188.0, 54.0 ],
 					"text" : "The threshold is 0.5, but you can type a lower/higher value into this box"
 				}
 
@@ -173,7 +173,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 180.0, 323.0, 188.0, 54.0 ],
+					"patching_rect" : [ 180.0, 292.0, 188.0, 54.0 ],
 					"text" : "The threshold is 1.0, but you can type a lower/higher value into this box"
 				}
 
@@ -202,7 +202,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 38.0, 381.0, 102.0, 22.0 ],
+					"patching_rect" : [ 38.0, 350.0, 102.0, 22.0 ],
 					"text" : "if $f1 > $f2 then 1"
 				}
 
@@ -215,7 +215,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 38.0, 434.0, 24.0, 24.0 ]
+					"patching_rect" : [ 38.0, 403.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -228,7 +228,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 339.0, 50.0, 22.0 ]
+					"patching_rect" : [ 121.0, 308.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -239,7 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 452.5, 381.0, 102.0, 22.0 ],
+					"patching_rect" : [ 452.5, 350.0, 102.0, 22.0 ],
 					"text" : "if $f1 > $f2 then 1"
 				}
 
@@ -252,7 +252,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 452.5, 434.0, 24.0, 24.0 ]
+					"patching_rect" : [ 452.5, 403.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -265,7 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 535.5, 339.0, 50.0, 22.0 ]
+					"patching_rect" : [ 535.5, 308.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -278,7 +278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 336.0, 222.0, 186.0, 25.0 ],
+					"patching_rect" : [ 336.0, 191.0, 186.0, 25.0 ],
 					"text" : "close Audio Status window"
 				}
 
@@ -292,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.0, 225.0, 51.0, 23.0 ],
+					"patching_rect" : [ 282.0, 194.0, 51.0, 23.0 ],
 					"text" : "wclose"
 				}
 
@@ -306,7 +306,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 321.0, 193.0, 361.0, 25.0 ],
+					"patching_rect" : [ 321.0, 162.0, 361.0, 25.0 ],
 					"text" : "open Audio Status window and choose your microphone"
 				}
 
@@ -320,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 196.0, 40.0, 23.0 ],
+					"patching_rect" : [ 277.0, 165.0, 40.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -334,7 +334,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 256.0, 162.5, 135.0, 25.0 ],
+					"patching_rect" : [ 256.0, 131.5, 135.0, 25.0 ],
 					"text" : "start/stop all audio"
 				}
 
@@ -347,7 +347,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 231.0, 165.0, 20.0, 20.0 ]
+					"patching_rect" : [ 231.0, 134.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -358,7 +358,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 452.5, 296.0, 19.0, 65.0 ]
+					"patching_rect" : [ 452.5, 265.0, 19.0, 65.0 ]
 				}
 
 			}
@@ -369,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 38.0, 296.0, 19.0, 65.0 ]
+					"patching_rect" : [ 38.0, 265.0, 19.0, 65.0 ]
 				}
 
 			}
@@ -382,7 +382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 231.0, 264.0, 64.0, 23.0 ],
+					"patching_rect" : [ 231.0, 233.0, 64.0, 23.0 ],
 					"text" : "adc~"
 				}
 
