@@ -1,1 +1,3 @@
-# Code/Sketch/Patch Examples for New Interfaces for Musical Expression (NIME) — Fall 2020
+# Max Patches
+
+A compendium of random Max patches I’ve created since 2004.
