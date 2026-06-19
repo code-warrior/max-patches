@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1212.0, 929.0 ],
+		"rect" : [ 34.0, 95.0, 1215.0, 853.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -487,7 +487,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.666670978069305, 734.535994885116565, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -500,7 +500,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 890.166670978069305, 734.76799636967462, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -807,7 +807,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.666670978069305, 538.82291451544188, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -820,7 +820,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 890.166670978069305, 539.054916000000048, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -1167,7 +1167,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.666670978069305, 344.535994885116565, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -1180,7 +1180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 890.166670978069305, 344.767996369674677, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -1549,7 +1549,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.666670978069305, 148.822914515441937, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -1562,7 +1562,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 890.166670978069305, 149.054916000000048, 55.0, 20.0 ],
-					"text" : "r play-stop"
+					"text" : "r play/stop"
 				}
 
 			}
@@ -1572,8 +1572,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 442.101328073814102, 67.0, 22.0 ],
-					"text" : "s play-stop"
+					"patching_rect" : [ 34.0, 442.101328073814102, 66.0, 22.0 ],
+					"text" : "s play/stop"
 				}
 
 			}
