@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 617.927224029177978, 715.535993573814494, 114.0, 35.0 ],
+					"patching_rect" : [ 617.927224029177978, 717.535993573814494, 114.0, 35.0 ],
 					"text" : ";\rdsp open"
 				}
 
@@ -1758,11 +1758,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-145",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1017.466751845271574, 355.843755568558095, 186.108356086819185, 20.0 ],
-					"text" : "— Roy Vanegas, 25 August 2023"
+					"patching_rect" : [ 1031.679950936279511, 263.724929304511988, 177.056654082560726, 47.0 ],
+					"text" : "— Roy Vanegas (25 Aug 2023)\n\n* Updated 27 June 2026"
 				}
 
 			}
@@ -1771,11 +1772,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-144",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.013286425314163, 657.535993573814494, 100.666670978069305, 21.0 ],
-					"text" : "Loop all audio"
+					"patching_rect" : [ 205.013286425314163, 657.535993573814494, 100.666670978069305, 36.0 ],
+					"text" : "Loop audio continously"
 				}
 
 			}
@@ -1786,7 +1788,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1050.970257536926511, 401.035993573814494, 129.833330869674228, 20.0 ],
+					"patching_rect" : [ 1055.556313465958738, 402.035993573814494, 129.833330869674228, 20.0 ],
 					"text" : "Master Volume",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
@@ -1796,12 +1798,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-142",
-					"linecount" : 15,
+					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1031.679950936279511, 113.5, 177.0, 208.0 ],
-					"text" : "Use this patch to test the outputs of an 8-channel audio system. On load, this patch loads eight 1-second brownian MP3 files into each of the eight outputs. You’ll need to trigger the loop option within one second below to continuously send the audio to all channels.\n\nTwo important notes: 1) The master volume is highlighted in yellow on the right. 2) The grey mask over this entire patch is for Mira access on an iPad."
+					"patching_rect" : [ 1031.679950936279511, 113.5, 177.0, 141.0 ],
+					"text" : "Test the outputs of an 8-channel audio system. On initialization, this patch loads eight 1-second brownian MP3 files into each of the eight outputs.\n\nNote: The grey mask over this entire patch is for Mira access on an iPad."
 				}
 
 			}
@@ -1813,7 +1815,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.659651488528652, 21.724929304511988, 713.500006258487701, 40.0 ],
+					"patching_rect" : [ 15.659651488528652, 20.724929304511988, 1211.076953530311584, 40.0 ],
 					"text" : "Test the Outputs of an 8-Channel Audio Interface",
 					"textjustification" : 1
 				}
@@ -1876,7 +1878,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1050.970257536926511, 576.046417438232993, 57.0, 22.0 ],
+					"patching_rect" : [ 1055.556313465958738, 574.046417438232993, 57.0, 22.0 ],
 					"text" : "s volume"
 				}
 
@@ -1890,7 +1892,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1050.970257536926511, 433.805876386348814, 129.833330869674114, 129.833330869674455 ],
+					"patching_rect" : [ 1055.556313465958738, 434.805876386348814, 129.833330869674114, 129.833330869674455 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 683.232015908882204, 14.054916000000048, 47.869331000000003, 47.869331000000003 ],
 					"saved_attribute_attributes" : 					{
@@ -1920,7 +1922,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.401424974666043, 660.035993573814494, 100.666670978069305, 21.0 ],
+					"patching_rect" : [ 447.401424974666043, 657.535993573814494, 100.666670978069305, 21.0 ],
 					"text" : "Play all cues"
 				}
 
@@ -1934,7 +1936,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.136922971763397, 660.035993573814494, 100.666670978069305, 36.0 ],
+					"patching_rect" : [ 326.136922971763397, 657.635993538051707, 100.666670978069305, 36.0 ],
 					"text" : "Play/stop all audio files"
 				}
 
@@ -1948,7 +1950,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.234753996596737, 657.535993573814494, 100.666670978069305, 36.0 ],
+					"patching_rect" : [ 42.234753996596737, 657.535993573814494, 100.666670978069305, 36.0 ],
 					"text" : "Open and preload all files"
 				}
 
@@ -1959,7 +1961,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 44.234753996596737, 745.891090288302848, 100.666670978069305, 22.0 ],
+					"patching_rect" : [ 42.234753996596737, 747.035993573814494, 100.666670978069305, 22.0 ],
 					"text" : "s loadbang"
 				}
 
@@ -2017,7 +2019,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 44.234753996596737, 715.535993573814494, 100.666670978069305, 22.0 ],
+					"patching_rect" : [ 42.234753996596737, 715.535993573814494, 100.666670978069305, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2066,7 +2068,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.901423722968502, 660.035993573814494, 126.0, 47.0 ],
+					"patching_rect" : [ 739.901423722968502, 657.635993538051707, 126.0, 47.0 ],
 					"text" : "Reports whether audio processing is on or off"
 				}
 
@@ -2080,7 +2082,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 873.506263508506436, 717.535993573814494, 100.666670978069305, 22.0 ],
+					"patching_rect" : [ 873.401423722968502, 717.535993573814494, 100.666670978069305, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "clearmaxwindow", "maxwindow" ],
@@ -2104,7 +2106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 873.506263508506436, 749.981077573814446, 100.666670978069305, 35.0 ],
+					"patching_rect" : [ 873.401423722968502, 755.981077573814446, 100.666670978069305, 35.0 ],
 					"text" : ";\rmax $1"
 				}
 
@@ -2116,7 +2118,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 617.927224029177978, 660.035993573814494, 114.206187111652525, 47.0 ],
+					"patching_rect" : [ 617.927224029177978, 657.535993573814494, 114.206187111652525, 47.0 ],
 					"text" : "Click to open the Audio Status window"
 				}
 
@@ -2128,7 +2130,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 873.401423722968502, 660.035993573814494, 126.0, 47.0 ],
+					"patching_rect" : [ 873.401423722968502, 657.635993538051707, 126.0, 47.0 ],
 					"text" : "Select to open/close Max’s Console window"
 				}
 
@@ -2166,7 +2168,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 739.901423722968502, 776.749073466651907, 100.0, 22.0 ],
+					"patching_rect" : [ 739.901423722968502, 795.949073752754202, 100.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "Off", "On" ],
@@ -2191,7 +2193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 739.901423722968502, 747.035993573814494, 100.0, 23.0 ],
+					"patching_rect" : [ 739.901423722968502, 755.981077573814446, 100.0, 23.0 ],
 					"text" : "adstatus switch"
 				}
 
@@ -2205,7 +2207,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.901423722968502, 660.035993573814494, 126.0, 53.0 ],
+					"patching_rect" : [ 739.901423722968502, 657.635993538051707, 126.0, 53.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2219,7 +2221,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.234753996596737, 657.535993573814494, 101.0, 52.0 ],
+					"patching_rect" : [ 42.234753996596737, 657.535993573814494, 100.666670978069305, 53.5 ],
 					"proportion" : 0.5
 				}
 
@@ -2233,7 +2235,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 616.927224029177978, 660.035993573814494, 114.0, 52.0 ],
+					"patching_rect" : [ 617.927224029177978, 657.535993573814494, 114.0, 52.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2247,7 +2249,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.013286425314163, 657.535993573814494, 114.0, 52.0 ],
+					"patching_rect" : [ 205.013286425314163, 657.535993573814494, 113.0, 53.5 ],
 					"proportion" : 0.5
 				}
 
@@ -2261,7 +2263,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 326.136922971763397, 660.035993573814494, 114.0, 52.0 ],
+					"patching_rect" : [ 326.136922971763397, 657.535993573814494, 114.0, 53.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2275,7 +2277,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 873.401423722968502, 660.035993573814494, 126.0, 53.0 ],
+					"patching_rect" : [ 873.401423722968502, 657.635993538051707, 126.0, 53.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2289,7 +2291,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 447.401424974666043, 660.035993573814494, 114.0, 52.0 ],
+					"patching_rect" : [ 447.401424974666043, 657.535993573814494, 113.0, 52.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2304,7 +2306,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1023.093895007247284, 381.5, 185.586055929032227, 234.445083642372083 ],
+					"patching_rect" : [ 1031.679950936279511, 381.5, 177.056654082560726, 234.445083642372083 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3530,7 +3532,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
-					"midpoints" : [ 749.401423722968502, 801.0, 726.0, 801.0, 726.0, 750.0, 735.0, 750.0, 735.0, 744.0, 749.401423722968502, 744.0 ],
+					"midpoints" : [ 749.401423722968502, 819.0, 726.0, 819.0, 726.0, 753.0, 735.0, 753.0, 735.0, 750.0, 749.401423722968502, 750.0 ],
 					"source" : [ "obj-69", 0 ]
 				}
 
@@ -3709,7 +3711,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-22", 3 ],
-					"midpoints" : [ 788.571596101157866, 321.0, 783.0, 321.0, 783.0, 351.0, 1020.0, 351.0, 1020.0, 342.0, 1218.0, 342.0, 1218.0, 870.0, 452.683764134897046, 870.0 ],
+					"midpoints" : [ 788.571596101157866, 321.0, 783.0, 321.0, 783.0, 351.0, 1017.0, 351.0, 1017.0, 870.0, 452.683764134897046, 870.0 ],
 					"order" : 1,
 					"source" : [ "obj-95", 0 ]
 				}
@@ -3773,9 +3775,6 @@
 				"boxes" : [ "obj-30", "obj-9", "obj-21", "obj-12", "obj-8", "obj-52", "obj-40", "obj-27", "obj-6", "obj-28", "obj-23", "obj-5", "obj-11", "obj-7", "obj-25", "obj-1", "obj-20" ]
 			}
 , 			{
-				"boxes" : [ "obj-50", "obj-36", "obj-43", "obj-38", "obj-35", "obj-53", "obj-51", "obj-47", "obj-33", "obj-49", "obj-45", "obj-32", "obj-37", "obj-34", "obj-46", "obj-31", "obj-41" ]
-			}
-, 			{
 				"boxes" : [ "obj-73", "obj-60", "obj-64", "obj-62", "obj-59", "obj-76", "obj-75", "obj-71", "obj-56", "obj-72", "obj-65", "obj-55", "obj-61", "obj-57", "obj-67", "obj-54", "obj-63" ]
 			}
 , 			{
@@ -3792,6 +3791,9 @@
 			}
 , 			{
 				"boxes" : [ "obj-181", "obj-110", "obj-114", "obj-112", "obj-109", "obj-183", "obj-182", "obj-117", "obj-107", "obj-118", "obj-115", "obj-106", "obj-111", "obj-108", "obj-116", "obj-105", "obj-113" ]
+			}
+, 			{
+				"boxes" : [ "obj-50", "obj-36", "obj-43", "obj-38", "obj-35", "obj-53", "obj-51", "obj-47", "obj-33", "obj-49", "obj-45", "obj-32", "obj-37", "obj-34", "obj-46", "obj-31", "obj-41" ]
 			}
  ]
 	}
